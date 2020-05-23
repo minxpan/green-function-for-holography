@@ -26,7 +26,6 @@ AmpImage = [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
         0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
         0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
         0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
         ];
 
 PhaseImage = (rand(20, 20) - 0.5);
@@ -38,7 +37,7 @@ colorbar
 title('Image Plane(desired pattern)')
 
 dW = 20e-6; %Spacing between elements
-z = 50e-6; % Distance of Image plane from the resonator plane
+z = 100e-6; % Distance of Image plane from the resonator plane
 
 lambda = 1.550e-6;
 k = 2 * pi / lambda;
